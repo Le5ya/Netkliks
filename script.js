@@ -31,8 +31,6 @@ const films = [
   },
 ];
 const render = (array) => {
-  console.log(array);
-
   cardWrapper.innerHTML = "";
 
   films.forEach((item) => {
