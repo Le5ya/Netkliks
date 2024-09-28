@@ -30,9 +30,9 @@ const films = [
     link: "film.html",
   },
 ];
+
 const render = (array) => {
   cardWrapper.innerHTML = "";
-
   films.forEach((item) => {
     cardWrapper.insertAdjacentHTML(
       "beforeend",
@@ -50,7 +50,7 @@ const render = (array) => {
         </p>
         <p class="content-cards__item--rating">${item.rating}</p>
       </a>
-      
+
       `
     );
   });
